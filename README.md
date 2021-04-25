@@ -15,7 +15,7 @@ Takip edilecek alım satım adımları aşağıdaki gibidir:
 
 Adımlar arasında BtcTürk'ten doğrudan USDC almak yerine, Huobi'ye USDT'lerin gönderilip sonrasında USDC'ye çevrildiğini görebilirsiniz. Bunun sebebi, Huobi borsasında USDC çekim işlemlerinin batchlenerek gerçekleştirilmesi sebebiyle 2 USDC gibi düşük bir komisyon ücretiyle gerçekleştirilmesidir. BtcTürk'te USDC çekim işlemlerinde 15 USDC komisyon ücreti uygulanmaktadır. 
 
-Bu adımların tamamında amaç, birbirinden bağımsız çalışan fakat ilişkili olan piyasalardaki farklardan faydalanabilmektir.
+Bu adımların tamamında amaç, birbirinden bağımsız çalışan fakat ilişkili olan piyasalardaki farklardan faydalanabilmektir. Gerçekleştirilen adımlar için akış şeması şekildeki gibidir:
 
-![Arbitraj işlemi için akış şeması](https://pbs.twimg.com/profile_images/427400464259244034/BOca13ao_400x400.jpeg)
+![Arbitraj işlemi için akış şeması]()
 
