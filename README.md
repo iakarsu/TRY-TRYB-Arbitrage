@@ -19,3 +19,11 @@ Bu adımların tamamında amaç, birbirinden bağımsız çalışan fakat ilişk
 
 ![Arbitraj işlemi için akış şeması]()
 
+config.py dosyası üzerinde, borsaların komisyon oranlarını, programın kontrol sıklığını ve başlangıç bakiyenizi değiştirebilirsiniz. Ayrıca, config.py dosyasındaki TELEGRAM bağlantı bilgilerini de doldurmanız halinde, %3'ten yüksek arbitraj olanakları yakalanırsa TELEGRAM kanalınıza bildirim gelecek şekilde ayarlama yapabilirsiniz.
+
+
+## Projeyi Çalıştırma Adımları
+
+- pip install -r requirements.txt
+- python arb.py
+
