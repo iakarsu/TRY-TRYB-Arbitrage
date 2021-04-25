@@ -17,7 +17,7 @@ Adımlar arasında BtcTürk'ten doğrudan USDC almak yerine, Huobi'ye USDT'lerin
 
 Bu adımların tamamında amaç, birbirinden bağımsız çalışan fakat ilişkili olan piyasalardaki farklardan faydalanabilmektir. Gerçekleştirilen adımlar için akış şeması şekildeki gibidir:
 
-![Arbitraj işlemi için akış şeması]()
+![Arbitraj işlemi için akış şeması](https://github.com/iakarsu/TRY-TRYB-Arbitrage/blob/main/schema1.png?raw=true)
 
 config.py dosyası üzerinde, borsaların komisyon oranlarını, programın kontrol sıklığını ve başlangıç bakiyenizi değiştirebilirsiniz. Ayrıca, config.py dosyasındaki TELEGRAM bağlantı bilgilerini de doldurmanız halinde, %3'ten yüksek arbitraj olanakları yakalanırsa TELEGRAM kanalınıza bildirim gelecek şekilde ayarlama yapabilirsiniz.
 
