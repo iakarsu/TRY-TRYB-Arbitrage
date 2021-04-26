@@ -94,10 +94,11 @@ def arb(initial_balance = INITIAL_BALANCE):
 
 
 while(True):
-    time.sleep(FREQUENCY)
     last_balance = arb()
     if(last_balance >= INITIAL_BALANCE * 1.03):
         try:
             sendTGMessage((last_balance - INITIAL_BALANCE) / INITIAL_BALANCE * 100)
         except:
             print("There might be a arb. chance, please check your TG setup.")
+
+    time.sleep(FREQUENCY)
